@@ -19,7 +19,7 @@ pipeline {
  }
  post {
   success {
-    sendNotificationToCDDCall projectName: 'NatWest', scope: 'BUSINESS_APPLICATION', businessApplicationName: 'NatWest Cards Online'
+    sendNotificationToCDDCall projectName: 'NatWest', scope: 'BUSINESS_APPLICATION', businessApplicationName: 'Cards Online'
   }
  }
 }
